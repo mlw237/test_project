@@ -1,0 +1,16 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+```{r}
+library(tidyverse)
+```
+```{r}
+glimpse(P30_ONLY_Hawaii_Data)
+head(P30_ONLY_Hawaii_Data)
+tail(P30_ONLY_Hawaii_Data)
+
+
+```
+
