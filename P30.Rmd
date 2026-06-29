@@ -5,12 +5,16 @@ editor_options:
 ---
 ```{r}
 library(tidyverse)
+install.packages("haven")
+library(haven)
 ```
 ```{r}
 glimpse(P30_ONLY_Hawaii_Data)
 head(P30_ONLY_Hawaii_Data)
 tail(P30_ONLY_Hawaii_Data)
 
+P30_Clean <- as_factor(P30_ONLY_Hawaii_Data)
+glimpse(P30_Clean)
 
 ```
 
